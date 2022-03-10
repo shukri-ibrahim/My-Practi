@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>score App </title>
+</head>
+<body>
+    <h1>score keeper app</h1> 
+    <div class="AllGroupes">  
+        <section id="manchester">
+            <img src="./Style/images/Manchester_City_FC_badge.svg.png" alt="manchester logo" width="30%">
+            <h2> manchester</h2>
+            <p id="p1">0</p>
+            <button onclick="manchestergoal()">
+                GOAL
+            </button>
+            <p id="p2">0</p>
+        
+            <button onclick="manchesterfoal()">
+                FOAL
+            </button>
+    
+        </section>
+          <section id="liverpool">
+    
+    <img src="./Style/images/Liverpool_FC.svg.png" alt="liverpool logo" width="30%">
+    <h2>liver pool</h2>
+    <p id="p3">0</p>
+    <button onclick="liverpoolgoal()" >
+        GOAL
+    </button>
+   <p id="p4">0</p>
+    <button onclick=" liverpoolfoal()" >
+        FOUL
+    </button> 
+</section>
+    
+</div>
+
+<button id="reset" onclick="resetfunctions()" >
+    reset
+</button>
+
+    
+<script src="./incrementbutton.js"></script>
+
+</body>
+</html>
