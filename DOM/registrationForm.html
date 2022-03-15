@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<style>
+  body {padding: 30px}
+</style>
+<body>
+  <h1>practicing on how to build a registration form</h1>
+  <div class="jumbotron">
+    <div class="container-fluid">
+    <form>
+      <div class="form-group">
+        <label for="InputuserName">username</label>
+        <input type="text" class="form-control" id="userName" placeholder="userName">
+      </div>
+        <div class="form-group">
+          <label for="InputPassword1">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Password">
+        </div>
+        <div class="form-group">
+          <label for="InputEmail1">Email address</label>
+          <input type="email" class="form-control" id="Email" placeholder="Email">
+        </div>
+
+
+        <div>
+          <h2>userName: <span id="myform"></span></h2>
+          <h2>password:<span id="myform1"></span></h2>
+          <h2>Email: <span id="myform2"></span></h2>
+          
+          
+          
+        </div>
+        
+      </form>
+    </div>
+  </div>
+
+
+  <script>
+    //Grap the elements
+    const userName = document.querySelector('#userName')
+    const password = document.querySelector('#password')
+    const email = document.querySelector('#Email')
+
+    const form = document.querySelector('#myform')
+    const form1 = document.querySelector('#myform1')
+    const form2 = document.querySelector('#myform2')
+
+    
+    // create function
+    function  add(){
+      const myuserName = userName.value
+      form.innerText = myuserName
+
+      console.log(myuserName);
+      const mypassword = password.value
+      form1.innerText = mypassword
+      console.log(mypassword);
+      const myEmail = Email.value
+      form2.innerText = myEmail
+      console.log(myEmail);
+      
+      
+    
+    }
+
+    //Add event listeners
+    userName.addEventListener('input', add)
+    password.addEventListener('input',add)
+    Email.addEventListener('input', add)
+    
+
+    
+  </script>
+  
+</body>
+</html>
