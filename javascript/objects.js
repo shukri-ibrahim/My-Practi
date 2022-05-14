@@ -78,3 +78,22 @@ for([ index, animal] of animals.entries()) {
     
     
 }
+
+
+const hero = {
+    Alis: 'Robbin',
+    name: 'Batman' ,
+    catchphrase: 'we will fight',
+    message: function(){
+        return `${this.Alis} and ${this.name} , ${this.catchphrase}`
+    },
+    Arrowmsg: () =>{
+        Alis = 'mahdi';
+        name = 'ahmed';
+        catchphrase = 'they concentrate in class'
+        return `${Alis} and ${name} , ${catchphrase}`
+
+    }
+}
+console.log(hero.message());
+console.log(hero.Arrowmsg());

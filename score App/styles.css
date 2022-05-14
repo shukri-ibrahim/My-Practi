@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+    background-color: white;
+    font-size:xx-large;
+    padding:2%;
+    font-size: 70px;
+    font-weight: bold;
+
+
+}
+body{
+    background-color: rgb(127, 182, 255);;
+
+}
+
+.AllGroupes{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 10%;
+    
+}
+#manchester{
+border-right: 5px solid #fff;
+margin-left: 10%;
+margin-right:30%;
+
+}
+#liverpool{
+
+ 
+}
+.AllGroupes button{
+    padding-top:  2%;
+    padding-bottom: 2%;
+    padding-right: 7%;
+    padding-left:7%;
+    background-color: white;
+    font-weight: bold;
+}
+.AllGroupes h2{
+    color: white
+}
+
+.AllGroupes p{
+    color: white;
+    font-size:200%;
+}
+#reset{
+    padding-top:  2%;
+    padding-bottom: 2%;
+    padding-right: 7%;
+    padding-left:7%;
+    background-color: white;
+    font-weight: bold;
+    font-size:100%;
+    text-transform:uppercase;
+    margin-top: 2%;
+    text-align: center;
+    margin-left: 40%;
+}
+

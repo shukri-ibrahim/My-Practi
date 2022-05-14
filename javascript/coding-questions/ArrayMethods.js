@@ -21,6 +21,8 @@ family.push('nimo')
 console.log(family);
 
 
+// add new value at the beginning of the Array
+
 family.unshift( 'faizo')
 console.log(family);
 
